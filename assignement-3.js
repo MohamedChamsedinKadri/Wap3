@@ -44,7 +44,7 @@ const isNewCar = function(year) {
 console.log(isNewCar(2020));  // Output: true (as the car is less than 5 years old)
 
 
-//exercice 2
+//////////////exercice 2
 
 function sum(number) {
     let greater = number.filter(n => n > 20);
@@ -52,7 +52,7 @@ function sum(number) {
     return result;
 }
 
-//exercice 3
+///////////exercice 3
 
 
 function getNewArray(strings) {
@@ -61,7 +61,7 @@ function getNewArray(strings) {
 
 
 
-//exercice 4
+///////////////exercice 4
 
 function toUpperCaseStrings(arr) {
     return arr.reduce((acc, str) => {
@@ -71,4 +71,23 @@ function toUpperCaseStrings(arr) {
         return acc;
     }, []);
 }
+
+
+////////////////exercice 5 & 6 
+/*      
+
+the output is gonna be :
+
+undefined 30
+10 30
+
+for the ec see the jpeg attached
+
+/////////////exercice 6  output 
+
+3 undefined
+10 undefined 
+10
+
+*/
 
